@@ -9,35 +9,35 @@ H5P content is responsive and mobile friendly, which means that users will exper
 interactive content on computers, smartphones and tablets alike.
 For more information visit https://h5p.org/
 
-## **Installation**
-	Install the correct version of the dependencies
-	- composer install
-	Enable public storage
-	- php artisan storage:link
-	Locate the sql file in the projects root
-	- Update the database using "ddl script .sql"
+## Installation
+Install the correct version of the dependencies
+- composer install
+Enable public storage
+- php artisan storage:link
+Locate the sql file in the projects root
+- Update the database using "ddl script .sql"
 
-## **To Do**
-	- A config file which should contain:
-		- Paths
-		- Database tables names or prefixes
-	- Static values that will need to become dynamic
-		- The language is currently hardcoded as English and can't be dynamically assigned or selected
-		- User rights are currently being ignored (everyone can do everything)
-		- The user ID is set as 1 and not obtained dynamically .
-	- The ability to edit H5P contents through the content editor
-	- Improving the routes, using a new intuitive naming pattern
+## To Do
+- A config file which should contain:
+	- Paths
+	- Database tables names or prefixes
+- Static values that will need to become dynamic
+	- The language is currently hardcoded as English and can't be dynamically assigned or selected
+	- User rights are currently being ignored (everyone can do everything)
+	- The user ID is set as 1 and not obtained dynamically .
+- The ability to edit H5P contents through the content editor
+- Improving the routes, using a new intuitive naming pattern
 	
-## **State of the H5P editor's development**
-	- The H5P editor allows one to create new H5P contents, but the ability to modify already existing
-	contents is currently under development. 
+## State of the H5P editor's development
+- The H5P editor allows one to create new H5P contents, but the ability to modify already existing
+contents is currently under development. 
 	
-## **Other future improvements**
-	- The notation used for a few values usually associated with H5P contents or libraries 
-	(examples: MajorVersion vs Major_version, MinorVersion vs Minor_version, MachineName vs Name etc) 
-	is currently not homogeneous.
-	- Information is currently often being sent to the server through a standard HTTP request. The goal
-	instead is to take advantage of Laravel's built-in Routing system.
+## Other future improvements
+- The notation used for a few values usually associated with H5P contents or libraries 
+(examples: MajorVersion vs Major_version, MinorVersion vs Minor_version, MachineName vs Name etc) 
+is currently not homogeneous.
+- Information is currently often being sent to the server through a standard HTTP request. The goal
+instead is to take advantage of Laravel's built-in Routing system.
 
 
 
