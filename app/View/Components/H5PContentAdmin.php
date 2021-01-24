@@ -566,7 +566,7 @@ class H5PContentAdmin extends  Component{
 
 //        $parameters = str_replace("<p>", "",$parameters);
 //        $parameters = str_replace("<p>", "",$parameters);
-        dd($parameters);
+//        dd($parameters);
 
         $display_options = $core->getDisplayOptionsForEdit($contentExists ? $this->content['disable'] : NULL);
 

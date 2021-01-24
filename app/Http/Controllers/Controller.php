@@ -78,7 +78,7 @@ class Controller extends BaseController
 //        $action = 'delete';
         $contentAdmin->process_new_content(true);
 //        return redirect('https://h5pdawp2.test/3');
-        return redirect('https://h5pdawp2.test/contents');
+        return redirect( \URL::to('/').'/contents');
 
 
 
@@ -125,7 +125,7 @@ class Controller extends BaseController
         $id = $contentAdmin->process_new_content(true);
 //        dd('test');
 //        dd($id);
-        return redirect('https://h5pdawp2.test/2/9?id='.$id);
+        return redirect(\URL::to('/').'/2/9?id='.$id);
 //        dd('test 3');
 
     }
