@@ -12,15 +12,19 @@ H5P content is responsive and mobile friendly, which means that users will exper
 interactive content on computers, smartphones and tablets alike.
 For more information visit https://h5p.org/
 
-## Installation
-Install the correct version of the dependencies
-- ```composer install```
+## Installation from scratch 
+Install the correct version of the dependencies: ```composer install```
 
-Enable public storage
-- ```php artisan storage:link```
+Enable public storage: ```php artisan storage:link```
 
-Locate the sql file in the projects root
-- Update the database using ```ddl script .sql```
+Laravel key generate: ```php artisan key:generate```
+
+Locate the sql file in the projects root and update the database using ```ddl script .sql```
+
+You can use this routes: ```php artisan route:list```
+
+## Integration in a existing project
+You can copy the ```app/View/Components``` and ```public/h5p``` folders, and set the routes according to the rules of the file https://github.com/ssse-sig/laravel-h5p/blob/main/routes/web.php.
 
 ## To Do
 - Make the repository a composer package instead of a Laravel application 
