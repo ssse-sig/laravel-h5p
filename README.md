@@ -1,4 +1,7 @@
-# H5P-GitHub with Laravel
+
+<p align="center"><a href="https://github.com/ssse-sig/laravel-h5p" target="_blank"><img src="https://github.com/ssse-sig/laravel-h5p/blob/main/public/LogoH5pLaravel.png" width="800"></a></p>
+
+# H5P with Laravel
 
 The project consists of a Laravel application integrating  the H5P library into the Laravel framework.
 The H5P library is currently not a module. 
@@ -20,6 +23,7 @@ Locate the sql file in the projects root
 - Update the database using "ddl script .sql"
 
 ## To Do
+- Make the repository a composer package instead of a Laravel application 
 - A config file which should contain:
 	- Paths
 	- Database tables names or prefixes
@@ -40,11 +44,6 @@ contents is currently under development.
 is currently not homogeneous.
 - Information is currently often being sent to the server through a standard HTTP request. The goal
 instead is to take advantage of Laravel's built-in Routing system.
-
-
-<p align="center"><a href="https://github.com/ssse-sig/laravel-h5p" target="_blank"><img src="https://github.com/ssse-sig/laravel-h5p/blob/main/public/LogoH5pLaravel.png" width="400"></a></p>
-
-https://github.com/ssse-sig/laravel-h5p/blob/main/public/LogoH5pLaravel.png
 
 ## Security Vulnerabilities
 
