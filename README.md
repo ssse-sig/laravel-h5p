@@ -14,13 +14,13 @@ For more information visit https://h5p.org/
 
 ## Installation
 Install the correct version of the dependencies
-- composer install
+- ```composer install```
 
 Enable public storage
-- php artisan storage:link
+- ```php artisan storage:link```
 
 Locate the sql file in the projects root
-- Update the database using "ddl script .sql"
+- Update the database using ```ddl script .sql```
 
 ## To Do
 - Make the repository a composer package instead of a Laravel application 
